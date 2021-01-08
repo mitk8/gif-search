@@ -8,7 +8,7 @@ import GifList from './GifList';
 function App() {
 
   const [data, setData] = useState([]); // declare state
-  const [query, setQuery] = useState('frenchy');
+  const [query, setQuery] = useState('french bulldog');
   const [isLoading, setIsLoading] = useState(true);
 
   // update the query state
